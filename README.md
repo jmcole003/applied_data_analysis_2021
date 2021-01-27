@@ -1,2 +1,2 @@
-# applied_data_analysis_2021
-Spring course
+# Applied Data Analysis
+Spring 2021 course
