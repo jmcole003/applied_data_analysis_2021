@@ -141,7 +141,7 @@ t[c(3,5)]
 
 **Create a 8 row by 20 column matrix, named m1, consisting of integers arranged in descending order from 159 to 1. Fill your matrix column-wise.**
 ```{r matrix, echo=TRUE, message=FALSE, warning=FALSE}
-m1 <- matrix(data = seq(159,1,by=-1),
+m1 <- matrix(data = seq(159,0,by=-1),
              nrow = 8,
              ncol = 20)
 m1

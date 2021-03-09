@@ -497,7 +497,7 @@ t</code></pre>
 <div id="challenge-3" class="section level2">
 <h2>Challenge 3</h2>
 <p><strong>Create a 8 row by 20 column matrix, named m1, consisting of integers arranged in descending order from 159 to 1. Fill your matrix column-wise.</strong></p>
-<pre class="r"><code>m1 &lt;- matrix(data = seq(159,1,by=-1),
+<pre class="r"><code>m1 &lt;- matrix(data = seq(159,0,by=-1),
              nrow = 8,
              ncol = 20)
 m1</code></pre>
@@ -518,7 +518,7 @@ m1</code></pre>
 ## [5,]    43    35    27    19    11     3
 ## [6,]    42    34    26    18    10     2
 ## [7,]    41    33    25    17     9     1
-## [8,]    40    32    24    16     8   159</code></pre>
+## [8,]    40    32    24    16     8     0</code></pre>
 <p> </p>
 <p><strong>Using single bracket notation, extract and print the element in row 5, column 2.</strong></p>
 <pre class="r"><code>m1[5,2]</code></pre>
